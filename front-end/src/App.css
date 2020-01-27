@@ -70,9 +70,10 @@
 
 .Footer {
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
   box-shadow: 4px 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-color: #a8091a;
+  margin-top: 5vh;
 }
 
 .Visit{
@@ -86,6 +87,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0 5vw;
+  color: #900010
 
 }
 
@@ -94,6 +96,7 @@
     height: 15vh;
     border: solid 0.2vw #979797;
     margin-bottom: 2vh;  
+    background-color: #979797;
 }
 .contact-container{
   display:flex;
@@ -153,3 +156,35 @@ justify-content: center;
   color:#900010;
 
 }
+.gallery-container{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center
+}
+
+.gallery-images{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2vh;
+}
+
+.gallery-image-container{
+  width: 20vw;
+  height: 30vh;
+  margin: 3vh 3vw ;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.selected-image{
+  width: 35vw;
+  height: 45vh;
+  margin: 5vh 3vw ;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
