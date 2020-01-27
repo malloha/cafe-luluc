@@ -1,38 +1,69 @@
-.App {
+.Entrees{
+  display: flex;
+  flex-direction: row;
+  margin: 61px 42px 74px 75px;
+  align-items: center;
+}
+
+.icons{
+display: flex;
+flex-direction: row;
+padding: 0 2px;
+}
+
+.IG, .FB, .TW{
+width: 71px;
+height: 59px;
+}
+
+
+
+.Rectangle-Reserve {
+    width: 223px;
+    height: 55px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 5px var(--black);
+
+}
+
+.RESERVE {
+  width: 169px;
+  height: 45px;
+  font-family: Muli-Italic_;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
+  color: var(--black);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Rectangle1 {
+  width: 60vw;
+  height: 29px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color:darkred;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10 10 10 10;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  width: 90%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Rectangle2{
+  width: 90vw;
+  height: 29px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color:darkred;
 }
