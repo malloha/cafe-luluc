@@ -20,12 +20,13 @@ class Gallery extends Component {
     return (
       <div className="gallery-container" >
         <div className="Divider1"></div> <div className="Divider2"></div>
-        <div className="Gal">
-          <div className="GalleryHeading"></div>
-          <p className="Gallery"> Gallery<FaInstagram className="icons" /></p>
-          <div className="GalleryHeading"></div >
+        <div className="heading-container">
+          <div className="left-heading-strip"></div>
+          <div className="ComponentHeading"> Gallery<FaInstagram className="icons" /></div>
+          <div className="right-heading-strip"></div >
         </div>
         <img src={this.state.image} alt="food" className="selected-image"></img>
+        <div className="horizontal-line"></div>
         <div className="gallery-images">
           <img src="https://i.imgur.com/A48gNu6.jpg" alt="food" value="https://i.imgur.com/A48gNu6.jpg" className="gallery-image-container" onClick={(e) => this.handleClick(e)} ></img>
           <img src="https://i.imgur.com/WksUOzz.jpg" alt="food" value="https://i.imgur.com/WksUOzz.jpg" className="gallery-image-container" onClick={(e) => this.handleClick(e)} ></img>

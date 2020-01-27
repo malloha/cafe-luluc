@@ -7,10 +7,10 @@ function Visit() {
   return (
     <div className="Visit">
       <div className="Divider1"></div><div className="Divider2"></div>
-      <div className="Gal">
-        <div className="GalleryHeading"></div>
-        <p className="Gallery"> Visit</p>
-        <div className="GalleryHeading"></div>
+      <div className="heading-container">
+        <div className="left-heading-strip"></div>
+        <p className="ComponentHeading"> Visit</p>
+        <div className="right-heading-strip"></div>
       </div>
       <div className="contact-container">
         <div className="contact">
@@ -29,7 +29,11 @@ function Visit() {
         </div>
       </div>
       <div>
-        <div className="Hours">Hours <FaRegClock className="icons" /></div>
+        <div className="heading-container">
+          <div className="left-heading-strip"></div>
+          <div className="ComponentHeading">Hours  <FaRegClock className="icons" /></div>
+          <div className="right-heading-strip"></div>
+        </div>
         <div className="timings">
           <div className="days">
             Mon <br />
