@@ -184,6 +184,7 @@ margin: 0;
     width: 100vw;
     margin: 4vw;
     flex-wrap: wrap;
+    padding: 1vw;
   }
 .menu {
   font-size: 15vw;
@@ -195,8 +196,8 @@ flex-wrap: wrap;
 
 
 .buttons1 {
- padding: 1vw;
-  width: 25vw;
+  padding: 1vw;
+  width: 30vw;
   font-size: 4.5vw;
   
   
@@ -206,4 +207,8 @@ flex-wrap: wrap;
   .menuBanner{
 
   }
+}
+
+.buttons1:hover {
+  opacity: .75;
 }
