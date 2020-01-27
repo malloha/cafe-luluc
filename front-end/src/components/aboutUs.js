@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import cafeluluc from '../image/cafeluluc.jpg'
+import cafeluluc from '../image/Logo.jpg'
 
 class AboutUs extends Component {
   constructor(props) {
@@ -21,18 +21,21 @@ class AboutUs extends Component {
           <div className="main-box">
             <div className="box1">
               <p className="box1-content">Brooklyn based french cafe. Classic neighborhood French bistro brings in crowds with it's brunch & garden seating</p>
-              <span>Learn More <FaRegArrowAltCircleRight /></span>
+
+
+              <span className="learn1">Learn More <FaRegArrowAltCircleRight /></span>
+
               <p>Breakfast - Lunch - Dinner</p>
               <span className="money">Cash Only $$$</span>
             </div>
           </div>
           <div className="box2">
-            <img src={cafeluluc} className="logo" alt="logo" />
+            <img src={cafeluluc} className="store" alt="logo" />
           </div>
 
         </div>
 
-
+        <span className="learn2">Learn More <FaRegArrowAltCircleRight /></span>
 
         <div className="Rectangle3">
           <div className="top" />
