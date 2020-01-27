@@ -11,7 +11,10 @@ function Header() {
         <FaFacebookF className="FB" />
         <FaTwitter className="TW" />
       </span>
-      <div className="Rectangle1"></div>
+      <div>
+        <div className="RectangleA"></div>
+        <div className="RectangleB"></div>
+      </div>
       <div className="Rectangle-Reserve">
         <p className="RESERVE">
           RESERVE
