@@ -6,11 +6,11 @@ import { FaTwitter } from "react-icons/fa";
 function Header() {
   return (
     <div className="Entrees">
-      <span className="icons1">
+      <div className="icons1">
         <FaInstagram className="IG" />
         <FaFacebookF className="FB" />
         <FaTwitter className="TW" />
-      </span>
+      </div>
       <div>
         <div className="RectangleA"></div>
         <div className="RectangleB"></div>
