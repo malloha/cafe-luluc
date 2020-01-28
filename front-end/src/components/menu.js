@@ -153,7 +153,7 @@ class Menu extends Component {
             }
           </div>
         </div>
-        <div className="bottom"></div>
+        <div className="bottom1"></div>
 
       </div>
     )
