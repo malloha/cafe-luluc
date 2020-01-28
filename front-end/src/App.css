@@ -720,7 +720,7 @@ body {
 }
 
 .rectangle {
-  width: 40vw;;
+  width: 40vw;
   height: 24px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(91deg, var(--darkish-red) 50%, var(--darkish-red) 86%);
@@ -844,14 +844,15 @@ span5 {
 @media (max-width: 600px) {
   .menuSwitch {
     display: flex;
-    font-size: 5vw;
+    font-size: 4vw;
     flex-direction: column;
     align-content: center;
+    width: 90vw;
     
   }
   .buttons{
     flex-direction: row;
-    
+    margin: none;
   }
 .somespace {
   display: none;
@@ -862,8 +863,10 @@ display:none;
   .menuBanner {
 border-bottom: none;
 text-align: left;
-margin: 0;
+margin-left: 0;
 padding-bottom: 8vh;
+padding-left: 0;
+
   }
 
   .bottom {
@@ -871,17 +874,20 @@ padding-bottom: 8vh;
   }
   .menus {
     width: 90vw;
-    margin: 12vw;
+    margin: 2vw;
     flex-wrap: wrap;
     padding: 0vw;
   }
 .menu {
   font-size: 12vw;
   margin: 0;
+  padding-left: 0;
+  width: 50vw;
+  
 }
 .buttons {
 flex-wrap: wrap;
-margin-left: 8vw;;
+margin: none;
 }
 
 
@@ -971,6 +977,14 @@ span5 {
 
   .down{
     width: 100vw;
+  }
+  .rectangle {
+    margin-right: 0;
+    width: 50vw;
+    padding-right: 0;
+    background-color: #900010;
+    height: 3vh;
+    margin-left: 3vw;
   }
 
 }
