@@ -848,6 +848,7 @@ span5 {
     flex-direction: column;
     align-content: center;
     width: 90vw;
+    height: 50vh;
     
   }
   .buttons{
