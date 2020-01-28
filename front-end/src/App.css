@@ -44,7 +44,7 @@ height: 39px;
   background-color: darkred;
   margin-left: auto;
   margin-right: auto;
-  width: 85vw;
+  width: 75vw;
   height: 12.5px;
 }
 
@@ -52,7 +52,7 @@ height: 39px;
   background-color: rgb(170,0,0);
   margin-left: auto;
   margin-right: auto;
-  width: 85vw;
+  width: 75vw;
   height: 12.5px;
 }
 
@@ -251,7 +251,7 @@ height: 39px;
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 82vw;
   justify-content: space-around;
 }
 
@@ -673,7 +673,7 @@ img:hover{
 
 .top{
   background-color: darkred;
-  width: 85vw;
+  width: 78vw;
   height: 12.5px;
   margin-right: auto;
   margin-left: auto;
@@ -681,7 +681,7 @@ img:hover{
 
 .down{
   background-color: rgb(170,0,0);
-  width: 85vw;
+  width: 78vw;
   height: 12.5px;
   margin-right: auto;
   margin-left: auto;
