@@ -66,7 +66,7 @@ class Menu extends Component {
 
   render() {
     return (
-      <div>
+      <div className="even_out">
         <div className="menuBanner">
           <div className="rectangle" id="rec1"> </div> <p className="menu">Menu <MdRestaurantMenu /> </p>  <div className="rectangle"></div> <br />
 

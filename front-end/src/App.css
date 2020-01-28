@@ -6,6 +6,10 @@
   margin: 30px auto;
 }
 
+.even_out {
+  width: 90vw;
+}
+
 .icons1{
 display: flex;
 flex-direction: row;
@@ -712,7 +716,7 @@ body {
   align-items: baseline;
   justify-content: center;
   border-bottom: 1.5rem dotted #900010;
-  margin: 5vw;
+  /* margin: 5vw; */
   padding: 1vh;
   
   
