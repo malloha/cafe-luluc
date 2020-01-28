@@ -405,10 +405,10 @@ margin: 0;
     display: none;
   }
   .menus {
-    width: 100vw;
-    margin: 4vw;
+    width: 90vw;
+    margin: 12vw;
     flex-wrap: wrap;
-    padding: 1vw;
+    padding: vw;
   }
 .menu {
   font-size: 15vw;
@@ -416,6 +416,7 @@ margin: 0;
 }
 .buttons {
 flex-wrap: wrap;
+margin-left: 8vw;;
 }
 
 
