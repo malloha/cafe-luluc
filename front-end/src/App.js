@@ -5,6 +5,7 @@ import Footer from './components/Footer.js'
 import Header from './components/Header.js'
 import Main from './components/main.js';
 import AboutUs from './components/aboutUs';
+import Menu from './components/menu'
 import Gallery from './components/Gallery.js'
 import Visit from './components/Visit.js'
 
@@ -16,6 +17,7 @@ class App extends Component {
         <Header />
         <Main />
         <AboutUs />
+        <Menu />
         <Gallery />
         <Visit />
         <Footer />

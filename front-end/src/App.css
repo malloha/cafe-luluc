@@ -61,6 +61,7 @@ height: 39px;
   padding-right: 30px;
   font-weight: bolder;
 }
+
 .App{
   display: flex;
   flex-direction: column;
@@ -103,7 +104,7 @@ height: 39px;
   display: flex;
   justify-content: center;
   align-items:center;
-  /* width: 25vw; */
+  width: 25vw; 
   height: 1vh;
   font-family: Muli;
   font-size: 3vw;
@@ -687,6 +688,183 @@ img:hover{
   input{
     width: 40vw;
   }
+} */
+
+body {
+  text-align: center;
+}
+
+.rectangle {
+  width: 40vw;;
+  height: 24px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(91deg, var(--darkish-red) 50%, var(--darkish-red) 86%);
+  background-color: #a8091a;
+}
+
+.menuBanner {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  border-bottom: 1.5rem dotted #900010;
+  margin: 5vw;
+  padding: 1vh;
+  
+  
+  
+}
+
+.menu {
+  width: 266px;
+  height: 57px;
+  font-family: Muli;
+  font-size: 56px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color:#a8091a;
+  font-size: 5vw;
+  padding: 3vw;
+
+
+}
+
+.oval {
+  font-size: 5vw;
+  color: #900010;
+  margin-top: 0vw;
+}
+
+.menuSwitch {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-family: 'Mali', cursive;
+  height: 50vh;
+  font-size: 1.75vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a8091a;
+ 
+  
+  
+}
+
+.buttons {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  font-family: 'Mali', cursive;
+  
+  
+}
+
+.buttons1 {
+  width: 15vw;
+  padding: 1vw;
+  font-family: Muli;
+  font-size: 1.5vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  background-color: #a8091a;
+  color: white;
+  font-family: 'Mali', cursive;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+.menus {
+  width: 50vw;
+  overflow: scroll;
+  margin: 1vw;
+  
+}
+
+.somespace {
+  width: 10vw;
+}
+
+.bottom {
+  border-bottom: 1.5rem dotted #900010;
+  margin: 2vw 5vw;
+}
+
+.buttons1:hover {
+  opacity: .75;
+}
+
+span5 {
+  color: #900010;
+}
+
+@media (max-width: 600px) {
+  .menuSwitch {
+    display: flex;
+    font-size: 5vw;
+    flex-direction: column;
+    align-content: center;
+    
+  }
+  .buttons{
+    flex-direction: row;
+    
+  }
+.somespace {
+  display: none;
+}
+  #rec1 {
+display:none;
+  }
+  .menuBanner {
+border-bottom: none;
+text-align: left;
+margin: 0;
+  }
+
+  .bottom {
+    display: none;
+  }
+  .menus {
+    width: 100vw;
+    margin: 4vw;
+    flex-wrap: wrap;
+    padding: 1vw;
+  }
+.menu {
+  font-size: 15vw;
+  margin: 0;
+}
+.buttons {
+flex-wrap: wrap;
+}
+
+
+.buttons1 {
+  padding: 1vw;
+  width: 30vw;
+  font-size: 4.5vw;
+  
+  
+  flex-wrap: wrap;
+ 
+}
+  
+
+
+
   .line{
     height: 9vh;
   }
