@@ -13,7 +13,7 @@ function Footer() {
         <div>Contact</div>
       </div>
       <div>
-        Join our Email list!
+        Join our email list!
 
         <br />
         <input></input>
