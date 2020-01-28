@@ -272,6 +272,7 @@ height: 39px;
   line-height: 2.2;
   border-radius: 5px;
   width: 15vw;
+  text-align: center;
 }
 
 .box2{
@@ -362,7 +363,7 @@ height: 39px;
     background-color: darkred;
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 100vw;
     height: 12.5px;
   }
   
@@ -370,12 +371,18 @@ height: 39px;
     background-color: rgb(170,0,0);
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 100vw;
     height: 12.5px;
   }
 
+.break-f{
+  font-size: 5vw;
+}
 
-
+.money{
+  font-size: 5vw;
+  width: 30vw;
+}
 
 
 
@@ -420,7 +427,6 @@ height: 39px;
   
   
   
-  
   .About-us{
     display: flex;
     flex-direction: column;
@@ -448,15 +454,22 @@ height: 39px;
   }
   
   
-  .box1{
+  .boxx1{
     display: flex;
     width: 80vw;
     width: 90vw;
   }
 
   .box1-content{
-    font-style: italic;
+    font-size: 5vw;
   }
+
+  .learn1{
+    padding-left: 10px;
+    font-size: 5vw;
+  }
+
+
   
   
   .money{
@@ -477,9 +490,6 @@ height: 39px;
     width: 100%;
   }
   
-  .top{
-    width: 100vw;
-  }
 
   .bottom{
     width: 100vw;
@@ -492,6 +502,9 @@ height: 39px;
   .learn2{
     display: flex;
     justify-content: flex-start;
+    font-size: 6vw;
+    padding-top: 20px;
+    padding-left: 20px;
   }
 
   .icons{
@@ -942,6 +955,14 @@ span5 {
     font-size: 10vw;
     margin-left:2vw;
     margin-right: 3vw;
+  }
+
+  .top{
+    width: 100vw;
+  }
+
+  .down{
+    width: 100vw;
   }
 
   .menus {
