@@ -6,7 +6,7 @@
   margin: 30px auto;
 }
 
-.icons{
+.icons1{
 display: flex;
 flex-direction: row;
 padding: 0 2px;
@@ -59,7 +59,10 @@ height: 39px;
   font-size: 14pt;
   padding-left: 30px;
   padding-right: 30px;
+  margin-left: 30px;
   font-weight: bolder;
+  border-color: black;
+  border-style: solid;
 }
 
 .App{
@@ -410,24 +413,6 @@ height: 39px;
     background-color: white;
   }
   
-  .Rectangle3{  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-  }
-  
-  .top{
-    background-color: darkred;
-    width: 85vw;
-    height: 12.5px;
-  }
-  
-  .bottom{
-    background-color: rgb(170,0,0);
-    width: 85vw;
-    height: 12.5px;
-  }
   
   
   
@@ -661,6 +646,26 @@ img:hover{
   opacity: 0.5;
 }
 
+.Rectangle3{  
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.top{
+  background-color: darkred;
+  width: 80vw;
+  height: 12.5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bottom{
+  background-color: rgb(170,0,0);
+  width: 80vw;
+  height: 12.5px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media only screen and (max-width:600px )
 {
