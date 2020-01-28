@@ -248,27 +248,26 @@ height: 39px;
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  width: 80vw;
-  justify-content: space-between;
+  width: 100vw;
+  justify-content: space-around;
 }
 
-
-.box1{
+.boxx1{
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  width: 20vw;
-  padding: 20px 0;
+  width: 25vw;
+  font-size: 2vw;
 }
 
 
 .money{
+  display: block;
   background-color: darkred;
   color: white;
   font-weight: bold;
   line-height: 2.2;
   border-radius: 5px;
-  margin: 0;
+  width: 15vw;
 }
 
 .box2{
@@ -359,7 +358,7 @@ height: 39px;
     background-color: darkred;
     margin-left: auto;
     margin-right: auto;
-    width: 100vw;
+    width: 80vw;
     height: 12.5px;
   }
   
@@ -367,7 +366,7 @@ height: 39px;
     background-color: rgb(170,0,0);
     margin-left: auto;
     margin-right: auto;
-    width: 100vw;
+    width: 80vw;
     height: 12.5px;
   }
 
@@ -450,6 +449,10 @@ height: 39px;
     width: 80vw;
     width: 90vw;
   }
+
+  .box1-content{
+    font-style: italic;
+  }
   
   
   .money{
@@ -458,7 +461,6 @@ height: 39px;
     font-weight: bold;
     line-height: 2.2;
     border-radius: 5px;
-    margin: 0;
   }
   
   .box2{
@@ -653,15 +655,15 @@ img:hover{
 
 .top{
   background-color: darkred;
-  width: 80vw;
+  width: 85vw;
   height: 12.5px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.bottom{
+.down{
   background-color: rgb(170,0,0);
-  width: 80vw;
+  width: 85vw;
   height: 12.5px;
   margin-right: auto;
   margin-left: auto;
