@@ -111,7 +111,7 @@ height: 39px;
   display: flex;
   justify-content: center;
   align-items:center;
-  width: 25vw; 
+  /* width: 25vw;  */
   height: 1vh;
   font-family: Muli;
   font-size: 3vw;
@@ -141,11 +141,10 @@ height: 39px;
   font-style: italic;
   line-height: normal;
   letter-spacing: normal;
-  border-color: black;
-  border-style: solid;
   text-align: center;
-  color: var(--black);
-  border-radius: 5px;
+  color: #900010;
+  padding: 0 1vw;
+
 }
 
 
